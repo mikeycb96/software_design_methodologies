@@ -66,6 +66,13 @@ OOP focusses on classes, their characteristics and how each class interacts with
 - Inheritance: when a class inherits the methods and properties of another class.
 - Polymorphism: allows developers to create multiple methods with the same name, but with different implementations.
 
+5. What is the strategy pattern? How would its implementation differ between a functional and object oriented system?
 
+Objects are created which represent various strategies and a context object whose behavior varies as per its strategy object. The difference between strategy pattern and the other strategies is that a family of algorithms is defined first, each one is encapsulated and interchangeable. This means that the program can be flexible to chose any of the algorithms at runtime for specific task.
+
+
+6. Imagine your is creating a new online payment system. In order to gain maximum market share it can't be tied to a particular sector - it needs to work just as well when ordering a takeaway as when buying a new coat. Which design methodology would you suggest following? Give some justification for your decision.
+
+Object oriented programming would be best for a versatile payment system because you can have an organised set classes that represent real-world entities such as payments for takeaways and for buying a new coat. This is because OOP uses encapsulation and promotes modularity which means that you can have reusable methods/algorithms. This makes the system easy to maintain and extend. Therefore, new payment methods can be added without dirupting the existing code, which means less errors and bugs. Additionally, abstraction can be used which allows you to use the same methods for different scenarios.
 
 
